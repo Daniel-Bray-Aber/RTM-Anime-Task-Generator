@@ -100,17 +100,6 @@ if end_episode < start_episode :
     print("Please make sure -s <Start Episode> is less or equal to -e <End Episode>")
     exit()
 
-
-print(anime_name)
-print(start_date)
-print(start_episode)
-print(end_episode)
-print(days_interval)
-print(priority)
-print(tags)
-
-
-
 for x in range(start_episode, end_episode + 1) :
     task = "Watched " + anime_name + " (" + str(x) + ")" 
     task += " ^" + date.strftime("%d %b %y")
