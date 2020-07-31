@@ -74,7 +74,6 @@ except TypeError:
     print("Please make sure you specify the -i <Days Interval> argument")
     exit()
 
-
 try :
     priority = int(priority)
     if priority < 1 or priority > 3 :
@@ -109,9 +108,3 @@ for x in range(start_episode, end_episode + 1) :
     task += " =25 minutes"
     print(task)
     date += timedelta(days=days_interval)
-
-#b = b + timedelta(days=daysBetweenViewing)
-
-
-
-
