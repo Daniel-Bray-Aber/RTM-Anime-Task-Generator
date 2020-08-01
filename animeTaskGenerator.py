@@ -105,6 +105,6 @@ for x in range(start_episode, end_episode + 1) :
     for tag in tags :
         task += " #" + tag
     task += " !" + str(priority)
-    task += " =25 minutes"
+    task += " =25 min"
     print(task)
     date += timedelta(days=days_interval)
